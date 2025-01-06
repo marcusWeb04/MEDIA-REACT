@@ -4,11 +4,22 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: red;
+  background-color: #f1f1f1;
 }
 
 #home {
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 1px solid black;
+  height: 100vh;
+}
+
+.form-connexion {
+  width: 50vh;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 1px solid black;
 }/*# sourceMappingURL=home.css.map */
